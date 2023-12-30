@@ -119,50 +119,74 @@ span{
   color: rgb(148, 147, 147);
 }
 .reaction{
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   height: 56px;
   background-color: hsla(0, 100%, 67%,0.1);
   border: none;
   border-radius: 10px;
 }
-.memory{
+.conReac{
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
+}
+.memory{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 56px;
   background-color: hsla(39, 100%, 56%,0.1);
   border: none;
   border-radius: 10px;
 }
+.conMem{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
 .memory .p p{
   color:  hsl(39, 100%, 56%);
 }
 .verbal{
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   height: 56px;
   background-color: hsla(166, 100%, 37%,0.1);
   border: none;
   border-radius: 10px;
 }
+.conVer{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
 .verbal .p p{
   color:  hsl(166, 100%, 37%);
 }
 .visual{
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   height: 56px;
   background-color: hsla(234, 85%, 45%,0.1);
   border: none;
   border-radius: 10px;
+}
+.conVis{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
 }
 .visual .p p{
   color:  hsl(234, 85%, 45%);
