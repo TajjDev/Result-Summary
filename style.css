@@ -6,18 +6,11 @@
 }
 .mainBody{
     width: 100%;
-    height: auto;
+    height: 100vh;
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.contains{
-    width:100%;
-    height:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 }
 .resSum{
   position: absolute;
@@ -50,7 +43,7 @@
   align-items: center;
 }
 .hhh{
-  font-size: 20px;
+  font-size: 18px;
   color: hsl(241, 100%, 89%);
   font-weight: 500;
 }
@@ -116,7 +109,7 @@ p{
   justify-content: space-evenly;
 }
 .sum{
-  font-size: 20px;
+  font-size: 18px;
 }
 .grade{
   height: 270px;
@@ -211,7 +204,6 @@ button{
  justify-content: center;
  align-items: center;
  cursor: grab;
- font-size: 20px;
  font-weight: 600;
   color:hsl(0, 0%, 100%) ;
 }
